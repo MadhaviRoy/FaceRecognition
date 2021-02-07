@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+## Development and implementation of real time face recognition systems
 
-You can use the [editor on GitHub](https://github.com/MadhaviRoy/FaceRecognition/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Face plays a major role in defining one’s identity and emotions as well. We humans have a fantastic ability to recognise and differentiate hundreds of familiar faces even after years at a glance, despite of changes in lightning conditions, expressions, age or hairstyle. This ability of humans has motivated both philosophers and scientists to understand the encoding and decoding of faces in human brain.
+	Face recognition has a variety of applications like criminal identification, security system, image and film processing, human machine interaction etc. Now-a-days, cameras come with built in functions for detecting faces and even expressions. Face detection is also required in film making for image enhancement applications.
+	A lot of work has been done and is still in progress to approach this problem.
+  Here We design and implement a GUI based face recognition system capable of detecting faces in live acquired images and recognising the detected faces. The designed system should detect, extract and recognize frontal faces from live images acquired in sufficient daylight.
+  The overall system contains four blocks : Image Acquisition block, Face Detection Block, FaceRecognision block and Person Identity block.  
+
 
 ### Markdown
 
