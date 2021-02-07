@@ -6,9 +6,14 @@ Face plays a major role in defining one’s identity and emotions as well. We hu
 	A lot of work has been done and is still in progress to approach this problem.
   Here We design and implement a GUI based face recognition system capable of detecting faces in live acquired images and recognising the detected faces. The designed system should detect, extract and recognize frontal faces from live images acquired in sufficient daylight.
   The overall system contains four blocks : Image Acquisition block, Face Detection Block, FaceRecognision block and Person Identity block. 
- ## Image Acquisition block
+  
+   
+### Image Acquisition block
+
 	This block is the first step in face recognition system applications as it provides the input to the system. It triggers the integrated camera (or a externally attached) via frame grabber. Snapshot function from MATLAB’s image acquisition toolbox [2] is used to serve the purpose. This image is the provided to the face detection block.
-## Face Detection Block:
+	
+### Face Detection Block:
+
 	Face detection performs locating and extracting face image operations for face recognition system.
 Skin color segmentation is applied as a first step for face detection, as it
 reduces computational time for searching whole image. While segmentation is
