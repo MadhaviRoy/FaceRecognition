@@ -38,6 +38,8 @@ Finally the region of size 180-by-120 is cropped. This region can be used for tr
 ### Face Recognition 
 The detected face now needs to be identified, and this part is called face recognition. Various methods as discussed in the literature survey, can be used to accomplish the task, like neural networks, Template matching,Facial feature based approach, model based approach etc. In this work we choose information theory based approach due to its simplicity and reliability. Here,we extract the information content in the face by capturing the variations in the collection of face images, encode it efficiently and compare it with the face models encoded similarly. 
 	Therefore, we wish to find Principal Components of the distribution of faces or eigenvectors of covariance matrix of the set of face images. The eigenvectors can be thought of as a set of features that together characterize the variation between face images. Each image location contributes to each eigen vector, which form a ghostly face called eigenface. Each eigenface deviated from uniform gray where some facial feature differs among  the set of training faces,forming a map of variation between the faces. Each face can be represented exactly in terms of linear combination of eigen faces. 
+	
+Refer my Project blog page for more details https://techprojectspro.blogspot.com/2021/02/development-and-implementation-of-real.html
 
 
 
